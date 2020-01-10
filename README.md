@@ -4,4 +4,4 @@ Custom Extension for TablePress to automatically wrap the table in a DIV element
 Requires the [TablePress](http://tablepress.org) extension installed on your [WordPress](http://wordpress.org) website
 
 # License
-This software is issued under the [MIT License](./LICENSE).
+This software is issued under the [GNU General Public License v3.0](./LICENSE).
