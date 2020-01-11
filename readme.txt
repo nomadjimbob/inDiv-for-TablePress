@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== inDiv for TablePress ===
 Contributors: nomadjimbob
 Tags: tablepress
 Requires at least: 4.6
