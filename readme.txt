@@ -1,4 +1,4 @@
-=== TablePress Extension: inDiv ===
+=== inDiv for TablePress ===
 Contributors: nomadjimbob
 Tags: tablepress
 Requires at least: 4.6
@@ -18,7 +18,7 @@ Custom Extension for TablePress to automatically wrap the table in a DIV element
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/tablepress-indiv` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/indiv-for-tablepress` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Ensure that you have the TablePress plugin installed and active.
 4. Add the shortcode in_div=true to your TablePress shortcode.
