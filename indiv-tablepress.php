@@ -9,7 +9,7 @@
  *
  * Plugin Name: inDiv for TablePress
  * Plugin URI: https://jamescollins.com.au/resources/indiv-tablepress/
- * Description: Custom Extension for TablePress to automatically wrap the table in a DIV element. Add in_div=true to your tables to enclose your TablePress tables in a DIV with the class tablepress_in_div.
+ * Description: Custom Extension for TablePress to automatically wrap the table in a DIV element. Add indiv=true to your tables to enclose your TablePress tables in a DIV with the class indiv_tablepress.
  * Version: 1.0.2
  * Requires at least: 5.3
  * Requires PHP: 5.6.20
