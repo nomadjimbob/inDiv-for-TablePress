@@ -41,6 +41,9 @@ Yes! In the TablePress > inDiv Options page, you can enable the option to automa
 
 == Changelog ==
 
+= 1.0.3 =
+* Fixed error when saving options
+
 = 1.0.2 =
 * Users can now enable the plugin to apply to all tables instead of per shortcode attribute
 * Rewritten backend to be modular

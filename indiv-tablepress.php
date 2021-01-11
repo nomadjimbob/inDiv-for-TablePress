@@ -4,13 +4,13 @@
  *
  * @package inDivTablePress
  * @author James Collins
- * @version 1.0.2
+ * @version 1.0.3
  *
  *
  * Plugin Name: inDiv for TablePress
  * Plugin URI: https://jamescollins.com.au/resources/indiv-tablepress/
  * Description: Custom Extension for TablePress to automatically wrap the table in a DIV element. Add indiv=true to your tables to enclose your TablePress tables in a DIV with the class indiv_tablepress.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Requires at least: 5.3
  * Requires PHP: 5.6.20
  * Author: James Collins
@@ -99,7 +99,7 @@ abstract class inDivTablePress {
      * @since 1.0.2
      */
     public static function admin_add_menus() {
-        add_submenu_page( 'tablepress', __( 'inDiv Options', 'inDivTablePress' ), __( 'inDiv Options', 'inDivTablePress' ), 'manage_options', 'tablepress_indiv', array( 'inDivTablePress', 'admin_view' ) );
+        add_submenu_page( 'tablepress', __( 'inDiv Options', 'inDivTablePress' ), __( 'inDiv Options', 'inDivTablePress' ), 'manage_options', 'indivtablepress', array( 'inDivTablePress', 'admin_view' ) );
     }
     
     /**
@@ -266,7 +266,7 @@ abstract class inDivTablePress {
         else {
             wp_die( __( 'Invalid nonce specified', 'inDivTablePress' ), __( 'Error', 'inDivTablePress' ), array(
             'response' 	=> 403,
-            'back_link' => 'admin.php?page=' . 'indivtablepress',
+            'back_link' => 'admin.php?page=' . 'indiv_tablepress',
             ) );
         }        
     }
